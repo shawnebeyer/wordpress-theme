@@ -3,7 +3,7 @@
 <?php get_sidebar(); ?>
 
 <div class="main">
-  <div class="container">
+  <div class="container blogs">
   HOME PAGE
 
     <div class="content">
