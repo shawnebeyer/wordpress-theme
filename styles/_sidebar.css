@@ -1,1 +1,1 @@
-nav{background:white;width:250px;float:left}nav a{color:#939498}.sup{color:red}
+.flexboxColumn{display:flex;flex-direction:column}nav{background:white;width:250px;float:left;height:500px;align-items:center;justify-content:space-between}nav a{color:#939498}nav .navTop{border-bottom:1px solid #939498;margin:0 20px 0p 20px;padding-bottom:40px}nav .navTop ul{display:flex;flex-direction:column}nav .navTop ul li a{background:#ffffff;color:#939498;padding:0}nav .navBottom p{margin:0}.sup{color:red}
