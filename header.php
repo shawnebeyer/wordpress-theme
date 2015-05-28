@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<!-- THIS HEADER IS ON LEFT SIDE OF EVERY PAGE -->
 <html <?php language_attributes(); ?>>
 <head>
 	<?php // Load Meta ?>
@@ -18,17 +20,25 @@
 
 <header>
   <div class="container">
-    <h1>
-      <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
-        <?php bloginfo( 'name' ); ?>
-      </a>
-    </h1>
-<nav>
-    <?php wp_nav_menu( array(
-      'container' => true,
-      'theme_locations' => 'primary'
-    )); ?>
-</nav>
+    
+    <nav class ="flexboxColumn">
+      <div class="navTop flexboxColum">
+        <h1>
+          <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
+            <?php bloginfo( 'name' ); ?>
+          </a>
+        </h1>
+       <?php wp_nav_menu( array(
+         'container' => false,
+         'theme_locations' => 'primary'
+       )); ?>
+      </div>
+      <div class="navBottom">
+        <p>bob jones</p>
+        <p>999 999 9999</p>
+      </div>
+    </nav>
+
   </div> <!-- /.container -->
 </header><!--/.header-->
 
