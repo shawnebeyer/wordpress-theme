@@ -10,7 +10,8 @@
           <h1 class="entry-title"><?php the_title(); ?></h1>
 
           <div class="entry-meta">
-            <?php hackeryou_posted_on(); ?>
+            <?php the_date('D M d'); ?>
+          (<?php the_time();?>)
           </div><!-- .entry-meta -->
 
           <div class="entry-content">
