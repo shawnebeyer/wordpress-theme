@@ -8,49 +8,118 @@
 }
 
 
-nav {
+.navTop ul, li, a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1;
+	position: relative;
+	text-transform: uppercase;
 	background: white;
+}
+
+.navTop a {
+	line-height: 1.3;
+}
+
+.navTop {
 	width: 250px;
-	float: left;
-	height: 100vh;
-	align-items: center;
-	justify-content: space-between;
-	position: fixed;
-	padding: 20px 0 0 30px;
-	// z-index: 999;
+	display: block;	
+}
 
-	a {
-		color: #939498;
-		text-transform: uppercase;
-		font-size: 10px;
-	}
+.navTop > ul > li > a {
+	padding-right: 40px;
+	font-size: 1;
+	/*font-weight: bold;*/
+	display: block;
+	background: #ffffff;
+	color: #111111;
+	text-transform: uppercase;
+}
+
+ul.menu li a {
+	background: #ffffff;
+	color: #939498;
+	padding: 0;
+}
+
+.navTop > ul > li > a:hover {
+  text-decoration: none;
+}
+
+.navTop > ul > li.active > a {
+  color: #111111;
+}
+
+.navTop ul ul {
+	display: none;
+}
+
+.navTop ul ul {
+	margin-left: 12px;
+}
+
+.navTop ul ul a {
+  padding: 2px 0 2px 7px;
+  display: block;
+  color: #111111;
+  font-size: 1;
+  border-left: 1px solid black;
+  text-transform: uppercase;
+}
+
+
+
+
+
+// nav {
+// 	background: white;
+// 	width: 250px;
+// 	float: left;
+// 	height: 100vh;
+// 	align-items: center;
+// 	justify-content: space-between;
+// 	position: fixed;
+// 	padding: 20px 0 0 30px;
+// 	// z-index: 999;
+
+// 	a {
+// 		color: #939498;
+// 		text-transform: uppercase;
+// 		font-size: 10px;
+// 	}
 	
-	.navTop {
+// 	.navTop {
 
-		border-bottom: 1px solid #939498;
-		margin: 0 20px 0p 20px;
-		padding-bottom: 40px;
+// 		border-bottom: 1px solid #939498;
+// 		margin: 0 20px 0p 20px;
+// 		padding-bottom: 40px;
 
-		 ul {
-				display: flex;
-				flex-direction: column;
+// 		 ul {
+// 				display: flex;
+// 				flex-direction: column;
 
-				li a {
-					background: #ffffff;
-					color: #939498;
-					padding: 0;
-				}
+// 				li a {
+// 					background: #ffffff;
+// 					color: #939498;
+// 					padding: 0;
+// 				}
 
-			}
+// 			}
 
-	}
+// 	}
 	
 
 
 	.navBottom p {
 		margin: 0;
 	}
-}
+// }
 
 .sup {
 	color: red;
