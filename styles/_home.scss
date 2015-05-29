@@ -2,3 +2,17 @@
 	padding-left: 300px;
 	// max-width: 50%;
 }
+
+.active{
+        z-index:99;
+    }
+.slideshow{
+	position: relative;
+	width: 70%;
+}
+.slideshow img{
+	width: 100%;
+	position: absolute;
+	top: 100px;
+	left: 300px;
+}

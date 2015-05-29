@@ -19,11 +19,10 @@
 <body <?php body_class(); ?>>
 
 <header>
-  <div class="container">
-
+  <div class="container clearfix">
     
     <nav class ="flexboxColumn">
-      <div class="navTop flexboxColum">
+      <div class="navTop flexboxColumn">
         <h1>
           <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
             <?php bloginfo( 'name' ); ?>
@@ -35,7 +34,7 @@
        )); ?>
       </div>
       <div class="navBottom">
-        <p>bob jones</p>
+        <p>Bob Jones</p>
         <p>999 999 9999</p>
       </div>
     </nav>
