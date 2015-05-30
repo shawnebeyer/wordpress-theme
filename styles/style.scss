@@ -58,15 +58,13 @@ body {
 }
 
 .content {
-  float:left;
   width:65%;
   margin-left: 250px; //changed from 30%? is this better or worse re responsive design?
   padding-top: 25px;
 }
 
 .content.blog {
-  float:left;
-  width:65%;
+  width:80%;
   margin-left: 0;
   padding-top: 25px;
   p{

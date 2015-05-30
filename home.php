@@ -7,9 +7,8 @@
 
 <div class="main">
   <div class="container blogs">
-
     <div class="content blog">
-    		<?php get_template_part( 'loop', 'index' );	?>
+    	<?php get_template_part( 'loop', 'index' );	?>
     </div> <!--/.content -->
   </div> <!-- /.container -->
 </div> <!-- /.main -->
