@@ -21,9 +21,9 @@ $( document ).ready(function() {
 $(document).ready(function(){
 
 $('.navTop > ul > li ul').each(function(index, e){
-  var count = $(e).find('li').length;
-  var content = '<span class=\"cnt\">' + count + '</span>';
-  $(e).closest('li').children('a').append(content);
+  // var count = $(e).find('li').length;
+  // var content = '<span class=\"cnt\">' + count + '</span>';
+  // $(e).closest('li').children('a').append(content);
 });
 $('.navTop ul ul li:odd').addClass('odd');
 $('.navTop ul ul li:even').addClass('even');
