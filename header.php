@@ -22,20 +22,21 @@
   <div class="container clearfix">
     
     <nav class ="flexboxColumn">
-      <div class="navTop flexboxColumn">
+      <div class="navHeadline">
         <h1>
           <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
             <?php bloginfo( 'name' ); ?>
           </a>
         </h1>
+      </div>
+      <div class="navTop flexboxColumn">
        <?php wp_nav_menu( array(
          'container' => false,
          'theme_locations' => 'primary'
        )); ?>
       </div>
       <div class="navBottom">
-        <p>Bob Jones</p>
-        <p>999 999 9999</p>
+        <!-- Basic contact info here -->
       </div>
     </nav>
 
