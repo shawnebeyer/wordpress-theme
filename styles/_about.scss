@@ -1,3 +1,33 @@
+.aboutSection{
+	padding-top: 50px;
+}
+
 .about{
 	padding-left: 270px;
+	display: flex;
+	flex-direction: row wrap;
+	.picture{
+		width: 25%;
+		padding-left: 25px;
+	}
+}
+.info{
+	width: 75%;
+}
+
+.aboutHr{
+	width: 100%;
+	padding: 25px;
+}
+.about.bottom{
+	padding-left: 270px;
+	display: flex;
+	flex-direction: row wrap;
+	.events{
+		width: 25%;
+		padding-left: 25px;
+	}
+}
+.clients{
+	width: 75%;
 }
