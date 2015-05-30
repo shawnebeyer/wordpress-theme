@@ -34,7 +34,8 @@ get_header();  ?>
 	<div class="bottom social">
 			<h4>Lately</h4>
 		    <?php the_content(); ?>
-			<?php  dynamic_sidebar( 'primary-widget-area' ); ?>
+			<a class="twitter-timeline" href="https://twitter.com/milenapribic" data-widget-id="604759468430094336">Tweets by @milenapribic</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</div>
 	</main>
 </div>
