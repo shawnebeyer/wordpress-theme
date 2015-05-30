@@ -20,8 +20,9 @@
 
 <header>
   <div class="container clearfix">
-    
+
     <nav class ="flexboxColumn">
+
       <div class="navHeadline">
         <h1>
           <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
@@ -29,17 +30,20 @@
           </a>
         </h1>
       </div>
+
       <div class="navTop flexboxColumn">
        <?php wp_nav_menu( array(
          'container' => false,
          'theme_locations' => 'primary'
        )); ?>
+       <hr>
       </div>
+      
       <div class="navBottom">
         <!-- Basic contact info here -->
       </div>
-    </nav>
 
+    </nav>
   </div> <!-- /.container -->
 </header><!--/.header-->
 

@@ -4,7 +4,7 @@
 .flexboxColumn {
 	display: flex;
 	flex-direction: column;
-
+	width: 20%;
 }
 
 .navHeadline a {
@@ -134,4 +134,8 @@ nav {
 .sup {
 	color: red;
 }
-	
+
+hr{
+	margin-top: 50px;
+	width: 200px;
+}
