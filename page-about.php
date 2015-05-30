@@ -34,11 +34,9 @@ get_header();  ?>
 <div class="bottom">
 		<h4>Lately</h4>
 	    <?php the_content(); ?>
-	    
+
 </div>
 </main>
 
     <?php endwhile; // end the loop?> <!-- /.container -->
 <!-- /main -->
-
-<?php get_footer(); ?>
