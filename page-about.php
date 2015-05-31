@@ -31,7 +31,6 @@ get_header();  ?>
 			</div>
 		</div>	
 	<div class="press">
-	<!-- <hr class="aboutHr"> -->
 	<h4>Press</h4>
 		<div class="screenshots">
 			<div class="image">
@@ -46,7 +45,6 @@ get_header();  ?>
 		</div>
 	</div>
 	<div class="real bottom">
-	<!-- <hr class="aboutHr"> -->
 	<h4>Live</h4>
 	<div class="social">
 		<div class="instaFeed">
