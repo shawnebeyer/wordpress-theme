@@ -50,34 +50,32 @@ img.alignright    { padding-left: 5px; }
    ========================================================================== */
 
 
-.wrapper {
-
-}
 
 body {
   background-color:white;
 }
 
-.container {
-  margin:0 auto;
-}
-
 .content {
   width:65%;
   margin-left: 250px; //changed from 30%? is this better or worse re responsive design?
-  padding-top: 25px;
+  padding-top: 40px;
+  padding-left: 40px;
 }
-
-.content.blog {
-  width:80%;
-  margin-left: 0;
-  padding-top: 25px;
-  p{
-    font-family: 'Helvetica', sans-serif;
-    font-size: 12px;
-  }
+.content p{
+  font-family: 'Times New Roman', serif;
 }
-
+.content h1{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+.entry-meta{
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+.entry-utility{
+  font-size: 12px;
+}
 .full {
   width:100%;
 }
@@ -144,7 +142,6 @@ pre {
    ========================================================================== */
 .sidebar {
   width:30%;
-  float:left;
 }
   .sidebar ul {
     margin:0;

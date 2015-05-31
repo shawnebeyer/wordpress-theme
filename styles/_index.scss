@@ -1,4 +1,23 @@
 .entry-title{
 	text-transform: uppercase;
 	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container.blogs{
+	padding-top: 40px;
+	padding-right: 50px;
+}
+.container.blogs p{
+	font-family: 'Times New Roman', serif;
+}
+.container a{
+	color: #4f4f4f;
+	&:hover{
+		color: #000;
+	}
+}
+
+.container footer a{
+	font-size: 12px;
 }

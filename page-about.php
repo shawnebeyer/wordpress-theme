@@ -31,11 +31,23 @@ get_header();  ?>
 			</div>
 		</div>	
 	<hr class="aboutHr">
-	<div class="bottom social">
-			<h4>Lately</h4>
-		    <?php the_content(); ?>
-			<a class="twitter-timeline" href="https://twitter.com/milenapribic" data-widget-id="604759468430094336">Tweets by @milenapribic</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<div class="press">
+	<h4>Press</h4>
+	</div>
+	<hr class="aboutHr">
+	<div class="real bottom">
+	<h4>Live</h4>
+	<div class="social">
+		<div class="instaFeed">
+			
+<iframe src="http://snapwidget.com/in/?u=bWlsZW5hcHJpYmljfGlufDEyNXwzfDJ8fG5vfDV8bm9uZXxvblN0YXJ0fG5vfHllcw==&ve=300515" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+		</div>
+		<div class="twitterFeed">
+		      <a class="twitter-timeline"  width="300"
+			  height="300" href="https://twitter.com/milenapribic" data-widget-id="604759468430094336">Tweets by @milenapribic</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+	</div>
 	</div>
 	</main>
 </div>

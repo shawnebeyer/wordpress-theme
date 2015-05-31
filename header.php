@@ -11,15 +11,11 @@
 
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-
+  <script src="http://snapwidget.com/js/snapwidget.js"></script>
   <?php wp_head(); ?>
 </head>
 
-
-<body <?php body_class(); ?>>
-
 <header>
-  <div class="container clearfix">
 
     <nav class ="flexboxColumn">
 
@@ -29,14 +25,12 @@
             <?php bloginfo( 'name' ); ?>
           </a>
         </h1>
-      </div>
 
       <div class="navTop flexboxColumn">
        <?php wp_nav_menu( array(
-         'container' => false,
+         'container' => 'false',
          'theme_locations' => 'primary'
        )); ?>
-       <hr>
       </div>
       
       <div class="navBottom">
