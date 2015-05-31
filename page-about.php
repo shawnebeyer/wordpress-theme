@@ -16,7 +16,7 @@ get_header();  ?>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi hic eos earum fuga quo, aspernatur accusantium ducimus perspiciatis fugit explicabo!</p>
 					<p class= "email"><?php echo $admin_email = get_option( 'admin_email' ); ?></p>
 					<h4 class="socials">Elsewhere: </h4>
-					<p>Twitter + Facebook</p>
+					<p><a href="twitter.com/milenapribic">Twitter</a> + <a href="facebook.com/milenapribic">Facebook</a></p>
 				</div>
 		</div> 
 
@@ -33,19 +33,24 @@ get_header();  ?>
 	<hr class="aboutHr">
 	<div class="press">
 	<h4>Press</h4>
+		<div class="screenshots">
+			<div class="image">
+				<img src="https://macmessiah.files.wordpress.com/2010/04/5d21429c-d445-4eed-bf3c-b78518bcaeb0iphone_photo1.jpg" alt="">
+			</div>
+			<div class="image">
+				<img src="http://graphics8.nytimes.com/images/2013/01/17/learning/NYTJan172013LN/NYTJan172013LN-blog480.jpg" alt="">
+			</div>
+			<div class="image">
+				<img src="http://rt.com/files/news/israel-censorship-prisoner-x-088/screenshot.jpg" alt="">
+			</div>
+		</div>
 	</div>
 	<hr class="aboutHr">
 	<div class="real bottom">
 	<h4>Live</h4>
 	<div class="social">
 		<div class="instaFeed">
-			
-<iframe src="http://snapwidget.com/in/?u=bWlsZW5hcHJpYmljfGlufDEyNXwzfDJ8fG5vfDV8bm9uZXxvblN0YXJ0fG5vfHllcw==&ve=300515" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
-		</div>
-		<div class="twitterFeed">
-		      <a class="twitter-timeline"  width="300"
-			  height="300" href="https://twitter.com/milenapribic" data-widget-id="604759468430094336">Tweets by @milenapribic</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			<iframe src="http://snapwidget.com/in/?u=bWlsZW5hcHJpYmljfGlufDEyNXw0fDJ8fG5vfDV8bm9uZXxvblN0YXJ0fG5vfHllcw==&ve=310515" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
 		</div>
 	</div>
 	</div>

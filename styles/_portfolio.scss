@@ -1,6 +1,7 @@
 .container.portfolio{
 	margin-left: 250px;
 	padding-top: 25px;
+	max-width: 1200px;
 }
 
 .container span {
@@ -16,7 +17,9 @@ header {
 	left: 0;
 }
 
-
+.main{
+	max-width: 1200px;
+}
 
 /* masonry brick layout */
 #container2 {
