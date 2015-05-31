@@ -6,6 +6,11 @@
 .aboutSection{
 	padding-top: 50px;
 	padding-right: 50px;
+	max-width: 1200px;
+	a{
+		font-family: 'Times New Roman', Times, serif;
+		text-transform: none;
+	}
 }
 
 .about{
@@ -14,7 +19,6 @@
 	flex-direction: row wrap;
 	.picture{
 		width: 25%;
-		padding-left: 25px;
 	}
 }
 .info{
@@ -32,11 +36,10 @@
 	flex-direction: row wrap;
 	.events{
 		width: 25%;
-		padding-left: 25px;
 	}
 }
 .real.bottom{
-	padding-left: 300px;
+	padding-left: 270px;
 }
 .clients{
 	width: 75%;
@@ -66,21 +69,21 @@
 
 .timeline{
 	width: 500px;
-	height: 100px;
 }
 .social{
 	display: flex;
 	flex-direction: row wrap;
 }
 .press{
-	padding-left: 300px;
+	padding-left: 270px;
 	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
 }
 
 #menu-menu-1{
   border-bottom: 1px solid black;
   padding-bottom: 50px;
-  width: 75%;
+  // width: 75%;
 }
 
 .instaFeed{
@@ -88,8 +91,21 @@
 }
 iframe {
 	width: 100%;
-	height: 500px;
+	height: 475px;
 }
 .real.bottom h4{
 	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+}
+
+.screenshots{
+	display: flex;
+	flex: row wrap;
+	.image{
+		width:33.33%;
+		padding: 10px;
+	}
+	img{
+		width: 100%;
+	}
 }
