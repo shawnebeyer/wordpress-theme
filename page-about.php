@@ -30,8 +30,8 @@ get_header();  ?>
 					<p>Target, Warby Parker, Nike, Mazda, All Saints, Wired Magazine, Gap, GQ, Details Magazine, Dwell Magazine, Lincoln Motor Co, Samsung, Ralph Lauren, Red Bull, Filson, Bridges 2 Prosperity, SPUR, Brutus Magazine, Wantful, NYLON Guys, Harry's, Atlantic Records, Kinfolk, VSCO</p>
 			</div>
 		</div>	
-	<hr class="aboutHr">
 	<div class="press">
+	<!-- <hr class="aboutHr"> -->
 	<h4>Press</h4>
 		<div class="screenshots">
 			<div class="image">
@@ -45,8 +45,8 @@ get_header();  ?>
 			</div>
 		</div>
 	</div>
-	<hr class="aboutHr">
 	<div class="real bottom">
+	<!-- <hr class="aboutHr"> -->
 	<h4>Live</h4>
 	<div class="social">
 		<div class="instaFeed">
