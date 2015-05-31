@@ -25,6 +25,7 @@
             <?php bloginfo( 'name' ); ?>
           </a>
         </h1>
+      </div>
 
       <div class="navTop flexboxColumn">
        <?php wp_nav_menu( array(

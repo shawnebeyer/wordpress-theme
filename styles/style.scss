@@ -314,3 +314,125 @@ p.form-allowed-tags, .nocomments { display:none; }
 }
 .comment-meta a:active, .comment-meta a:hover, .reply a:hover, a.comment-edit-link:hover { color:#ff4b33; }
 #respond p, #comments-list ul #respond { margin:0; }
+
+
+
+
+//media queries - to go in seperate .sass asap.
+/* Portrait tablet and small desktops */
+@media (max-width: 768px) {
+  // **BREAKPOINT is at 691px?
+
+  .slideshow img {
+    margin: 0 auto;
+    text-align: center;
+    left: 50px;
+    width: 60%;
+  }
+
+  .slideshow {
+    top: 150px;
+    width: 145%;
+  }
+
+  header {
+    z-index: 9999;
+  }
+
+  .flexboxColumn {
+    z-index: 9999;
+    padding-bottom: 20px;
+    // top: 0; //possibly remove. Wordpress editor cuts off. IRL??
+  }
+
+  nav {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+
+    .navTop {
+      height: 40px;
+    }
+
+  }
+
+  .navTop ul ul {
+    width: 200%;
+    display: flex;
+    margin: 0;
+
+    a {
+      border-left: none;
+      padding: 0;
+
+      // &:after {
+      //   content: "|";
+      // }
+    }
+  }
+
+  #menu-menu-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #939498;
+  }
+
+  .navHeadline h1 {
+    margin-bottom: 40px;
+  }
+
+  .container.blogs {
+    padding-top: 240px;
+  }
+
+  .blogs {
+    padding: 20px;
+  }
+
+  .aboutSection {
+    padding: 20px;
+  }
+  .about {
+    padding-left: 0;
+  }
+
+}
+
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+  #menu-menu-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-around;
+  }
+
+  // .navTop ul ul {
+  //   width: 100%;
+  //   // display: flex;
+  //   margin-left: 12px;
+
+  //   a {
+  //     border-left: none;
+  //     padding: 0;
+
+  //     // &:after {
+  //     //   content: "|";
+  //     }
+  //   }
+
+  .slideshow {
+    width: 130%;
+  }
+
+  .slideshow img {
+    padding-top: 50px;
+  }
+
+}

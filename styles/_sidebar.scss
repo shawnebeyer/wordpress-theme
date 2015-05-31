@@ -4,7 +4,7 @@
 .flexboxColumn {
 	display: flex;
 	flex-direction: column;
-	width: 20%;
+	// width: 20%;
 }
 
 .navHeadline a {
@@ -79,6 +79,7 @@ ul.menu li a {
 
 .navTop ul ul {
 	margin-left: 12px;
+	display: inline-block;
 }
 
 .navTop ul ul a {
