@@ -85,7 +85,7 @@ a {
 }
 
 a:hover {
-  color: #D424B1;
+  color: #111111;
 }
 
 /* paragraphs */
@@ -348,8 +348,8 @@ font-size: 16px;
 
   .flexboxColumn {
     z-index: 9999;
-    padding-bottom: 20px;
-    // top: 0; //possibly remove. Wordpress editor cuts off. IRL??
+    padding: 20px 0 20px 0;
+    top: 0; //possibly remove. Wordpress editor cuts off. IRL??
   }
 
   nav {
@@ -364,7 +364,7 @@ font-size: 16px;
   }
 
   .navTop ul ul {
-    width: 200%;
+    // width: 200%;
     // display: flex;
     margin: 0;
 
@@ -390,7 +390,7 @@ font-size: 16px;
   }
 
   .navHeadline h1 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .container.blogs {
@@ -404,7 +404,16 @@ font-size: 16px;
   .aboutSection {
     padding: 20px;
   }
-  .about {
+
+  .info, .clients {
+    padding-left: 20px;
+  }
+
+  .about.top {
+    padding: 150px 0 0 0;
+  }
+
+  .about.bottom{
     padding-left: 0;
   }
 
@@ -455,5 +464,42 @@ nav{
   iframe{
       height: 250px;
   }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.about .picture {
+  padding: 50px 0 50px 0;
+  display: flex;
+  width: 100%;
+  img {
+    margin: 0 auto;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  p {
+    text-align: center;
+  }
+
+  h4 {
+    display: none;
+  }
+}
+
+.about.bottom .events {
+  width: 100%;
+}
+
+.clients {
+  width: 100%;
+  padding-left: 0;
+}
 
 }

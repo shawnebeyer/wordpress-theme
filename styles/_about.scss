@@ -13,6 +13,9 @@
 	}
 }
 
+.about.top {
+	// width: 100%;
+}
 .about{
 	padding-left: 270px;
 	display: flex;
@@ -78,10 +81,12 @@
 	padding-left: 270px;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 14px;
+	border-top: 1px solid #4f4f4f;
+	border-bottom: 1px solid #4f4f4f;
 }
 
 #menu-menu-1{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #4f4f4f;
   padding-bottom: 50px;
   // width: 75%;
 }
