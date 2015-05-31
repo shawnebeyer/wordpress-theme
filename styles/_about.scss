@@ -5,6 +5,7 @@
 
 .aboutSection{
 	padding-top: 50px;
+	padding-right: 50px;
 }
 
 .about{
@@ -18,11 +19,12 @@
 }
 .info{
 	width: 75%;
+	padding-left: 10px;
 }
 
 .aboutHr{
 	width: 100%;
-	padding: 25px;
+	margin: 25px;
 }
 .about.bottom{
 	padding-left: 270px;
@@ -33,12 +35,15 @@
 		padding-left: 25px;
 	}
 }
+.real.bottom{
+	padding-left: 300px;
+}
 .clients{
 	width: 75%;
+	padding-left: 10px;
 }
 
 .social {
-	width: 50%;
 	margin: 0 auto;
 }
 
@@ -51,6 +56,40 @@
 		color: #000;
 	}
 }
+
+.about p{
+	margin-top: 0;
+}
 .stream{
 	height: 200px;
+}
+
+.timeline{
+	width: 500px;
+	height: 100px;
+}
+.social{
+	display: flex;
+	flex-direction: row wrap;
+}
+.press{
+	padding-left: 300px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#menu-menu-1{
+  border-bottom: 1px solid black;
+  padding-bottom: 50px;
+  width: 75%;
+}
+
+.instaFeed{
+	width: 100%;
+}
+iframe {
+	width: 100%;
+	height: 500px;
+}
+.real.bottom h4{
+	font-family: 'Times New Roman', Times, serif;
 }
