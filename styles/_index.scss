@@ -1,12 +1,32 @@
+//Blog styles
+.content {
+  width:65%;
+  margin-left: 250px; //changed from 30%? is this better or worse re responsive design?
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.content p{
+  font-family: 'Times New Roman', serif;
+}
+.content h1{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+.entry-meta{
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+.entry-utility{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
 .entry-title{
 	text-transform: uppercase;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 }
-.entry-utility{
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 14px;
-}
+
 .container.blogs{
 	padding-top: 40px;
 	padding-right: 50px;
@@ -20,4 +40,7 @@
 	&:hover{
 		color: #000;
 	}
+}
+.blogs {
+	padding-left: 300px;
 }

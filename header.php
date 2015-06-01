@@ -16,9 +16,7 @@
 </head>
 
 <header>
-
-    <nav class ="flexboxColumn">
-
+    <nav>
       <div class="navHeadline">
         <h1>
           <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
@@ -26,19 +24,12 @@
           </a>
         </h1>
       </div>
-
       <div class="navTop flexboxColumn">
        <?php wp_nav_menu( array(
          'container' => 'false',
          'theme_locations' => 'primary'
        )); ?>
       </div>
-      
-      <div class="navBottom">
-        <!-- Basic contact info here -->
-      </div>
-
     </nav>
-  </div> <!-- /.container -->
 </header><!--/.header-->
 

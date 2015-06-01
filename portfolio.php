@@ -6,8 +6,8 @@
 
 get_header();  ?>
 
-<div class="main">
-  <div class="container portfolio">
+<main>
+  <div class="portfolio">
 
     <?php // Start the loop ?>
     <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
@@ -16,6 +16,6 @@ get_header();  ?>
 
     <?php endwhile; // end the loop?>
   </div> <!-- /.container -->
-</div> <!-- /.main -->
+</main> <!-- /.main -->
 
 <?php get_footer(); ?>

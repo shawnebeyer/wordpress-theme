@@ -1,107 +1,50 @@
-.wrapper {
-	// width: 75%;
-	// float: right;
-}
-
+//Main about styles
 .aboutSection{
 	padding-top: 50px;
 	padding-right: 50px;
 	max-width: 1200px;
+	padding-left: 270px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
 	a{
-		font-family: 'Times New Roman', Times, serif;
 		text-transform: none;
 	}
 }
 
-.about.top {
-	// width: 100%;
-}
-.about{
-	padding-left: 270px;
+//Top half of info page
+.about{ //Top half of 'About Page'
+	line-height: 18px;
 	display: flex;
 	flex-direction: row wrap;
+	color: #4f4f4f;
 	.picture{
 		width: 25%;
 	}
 }
-.info{
-	width: 75%;
-	padding-left: 10px;
-}
-
-.aboutHr{
-	width: 100%;
-	margin: 25px;
+.about h4{
+	color: #000;
 }
 .about.bottom{
-	padding-left: 270px;
 	display: flex;
 	flex-direction: row wrap;
 	.events{
 		width: 25%;
 	}
 }
-.real.bottom{
-	padding-left: 270px;
+.about .info{
+	width: 75%;
+	padding-left: 10px;
 }
-.clients{
+.about .clients{
 	width: 75%;
 	padding-left: 10px;
 }
 
-.social {
-	margin: 0 auto;
-}
-
-.about {
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 14px;
-	line-height: 18px;
-	color: #4f4f4f;
-	h4{
-		color: #000;
-	}
-}
-
-.about p{
-	margin-top: 0;
-}
-.stream{
-	height: 200px;
-}
-
-.timeline{
-	width: 500px;
-}
-.social{
-	display: flex;
-	flex-direction: row wrap;
-}
+//Press Section
 .press{
-	padding-left: 270px;
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 14px;
 	border-top: 1px solid #4f4f4f;
 	border-bottom: 1px solid #4f4f4f;
 }
-
-#menu-menu-1{
-  border-bottom: 1px solid #4f4f4f;
-  padding-bottom: 50px;
-}
-
-.instaFeed{
-	width: 100%;
-}
-iframe {
-	width: 100%;
-	height: 475px;
-}
-.real.bottom h4{
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 14px;
-}
-
 .screenshots{
 	display: flex;
 	flex: row wrap;
@@ -112,4 +55,13 @@ iframe {
 	img{
 		width: 100%;
 	}
+}
+//Instagram feed section 
+
+.instaFeed{
+	width: 100%;
+}
+iframe {
+	width: 100%;
+	height: 475px;
 }

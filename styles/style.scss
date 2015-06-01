@@ -46,33 +46,12 @@ img.alignright    { padding-left: 5px; }
                    Default Styling
    ========================================================================== */
 
-
+//add font styles and colors here to mix in
 
 body {
   background-color:white;
 }
 
-.content {
-  width:65%;
-  margin-left: 250px; //changed from 30%? is this better or worse re responsive design?
-  padding-top: 40px;
-  padding-left: 40px;
-}
-.content p{
-  font-family: 'Times New Roman', serif;
-}
-.content h1{
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
-}
-.entry-meta{
-  font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-}
-.entry-utility{
-  font-size: 16px;
-}
 .full {
   width:100%;
 }
@@ -85,12 +64,7 @@ a {
 }
 
 a:hover {
-  color: #111111;
-}
-
-/* paragraphs */
-p {
-  line-height: 1.5;
+  color: #000;
 }
 
 /*blockquotes*/
@@ -318,65 +292,45 @@ font-size: 16px;
   font-family: 'Open Sans';
 }
 
-
 //media queries - to go in seperate .sass asap.
 /* Portrait tablet and small desktops */
 
 @media (max-width: 768px) {
   // **BREAKPOINT is at 691px?
 
-  .slideshow img {
-    margin: 0 auto;
-    text-align: center;
-    left: 50px;
-    width: 60%;
-  }
-
   .slideshow {
     top: 150px;
     width: 145%;
+    img{
+      margin: 0 auto;
+      text-align: center;
+      left: 50px;
+      width: 60%;
+    }
   }
 
-  header {
-    z-index: 9999;
-  }
-
-  .container.portfolio{
-    margin-left: 0;
+ .portfolio{
+    padding-left: 0;
     padding-top: 250px;
   }
-
   .flexboxColumn {
-    z-index: 9999;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 0px 0;
     top: 0; //possibly remove. Wordpress editor cuts off. IRL??
   }
-
   nav {
     width: 100%;
     text-align: center;
     padding: 0;
-
     .navTop {
-      height: 40px;
+      height: auto;
     }
 
   }
-
   .navTop ul ul {
-    // width: 200%;
-    // display: flex;
     margin: 0;
-
-
-
     a {
       border-left: none;
       padding: 0;
-
-      // &:after {
-      //   content: "|";
-      // }
     }
   }
 
@@ -395,11 +349,12 @@ font-size: 16px;
 
   .container.blogs {
     padding-top: 240px;
+    padding-left: 50px;
   }
 
-  .blogs {
-    padding: 20px;
-  }
+  // .blogs {
+  //   padding: 20px;
+  // }
 
   .aboutSection {
     padding: 50px;
@@ -437,20 +392,6 @@ font-size: 16px;
     flex-direction: column;
     // justify-content: space-around;
   }
-
-  // .navTop ul ul {
-  //   width: 100%;
-  //   // display: flex;
-  //   margin-left: 12px;
-
-  //   a {
-  //     border-left: none;
-  //     padding: 0;
-
-  //     // &:after {
-  //     //   content: "|";
-  //     }
-  //   }
 nav{
   position: fixed;
 }
@@ -480,7 +421,7 @@ nav{
   }
 }
 
-.info {
+.about .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -499,7 +440,6 @@ nav{
 
 .clients {
   width: 100%;
-  padding-left: 0;
 }
 
 .container .content{
